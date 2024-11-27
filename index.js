@@ -7,7 +7,7 @@ const PORT = 3000;
 app.use(bodyParser.json());
 
 
-app.use(cors({ origin: 'https://task-kappa-ivory.vercel.app/' }));
+app.use(cors({ origin: 'https://task-kappa-ivory.vercel.app' }));
 
 const fs = require('fs');
 const tasksFilePath = './tasks.json';
