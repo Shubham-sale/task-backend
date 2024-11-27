@@ -4,11 +4,10 @@ const cors = require('cors');
 const app = express();
 const PORT = 3000;
 
-app.use(cors());
 app.use(bodyParser.json());
 
 
-app.use(cors({ origin: 'https://vercel.com/shubham-sales-projects/task/J6UvjUgmTKk1DQ6UEM5epUtGCnwR' }));
+app.use(cors({ origin: 'https://task-kappa-ivory.vercel.app/' }));
 
 const fs = require('fs');
 const tasksFilePath = './tasks.json';
