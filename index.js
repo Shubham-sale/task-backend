@@ -8,6 +8,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 
+app.use(cors({ origin: 'https://vercel.com/shubham-sales-projects/task/J6UvjUgmTKk1DQ6UEM5epUtGCnwR' }));
 
 const fs = require('fs');
 const tasksFilePath = './tasks.json';
